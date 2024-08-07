@@ -1,0 +1,36 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --allow-no-sex
+  --autosome
+  --bfile ADAPTmap_genotypeTOP_20160222_full
+  --cow
+  --geno 0.1
+  --maf 0.05
+  --make-bed
+  --mind 0.1
+  --nonfounders
+  --out afterQC
+
+Hostname: MIKAEL
+Working directory: C:\Users\mikae\OneDrive\Bureau\Plink_with_R\quality_control_R
+Start time: Mon Aug 05 16:12:30 2024
+
+Random number seed: 1722888750
+16011 MB RAM detected; reserving 8005 MB for main workspace.
+49953 out of 53347 variants loaded from .bim file.
+4653 cattle (32 males, 158 females, 4463 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to afterQC.nosex .
+121 cattle removed due to missing genotype data (--mind).
+IDs written to afterQC.irem .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 4532 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.982711.
+1332 variants removed due to missing genotype data (--geno).
+69 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+48552 variants and 4532 cattle pass filters and QC.
+Note: No phenotypes present.
+--make-bed to afterQC.bed + afterQC.bim + afterQC.fam ... done.
+
+End time: Mon Aug 05 16:12:31 2024
